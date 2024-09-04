@@ -113,7 +113,7 @@ func main() {
 		total += funding
 	}
 
-	annualised := total / (days / 364)
+	annualised := total / (days / 365)
 
 	fmt.Printf("Days:  %.1f\n", days)
 	fmt.Printf("Total: %.2f%%\n", total*100)
